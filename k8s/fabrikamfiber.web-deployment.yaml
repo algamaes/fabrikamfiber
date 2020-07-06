@@ -13,7 +13,7 @@ spec:
         app: fabrikamfiber.web
     spec:
       containers:
-      - image: docker.io/algamaes/fabrik
+      - image: docker.io/algamaes/fabrik:0.8.5
         name: fabrikamfiberweb
         ports:
         - containerPort: 80
